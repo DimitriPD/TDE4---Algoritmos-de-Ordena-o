@@ -24,7 +24,7 @@ public class App {
         ArrayList<Long> array = new ArrayList<>();
 
         for (int i = 1; i < stringArray.length; i++) {
-            String element = stringArray[i];
+            String element = stringArray[i].trim();
 
             array.add(Long.valueOf(element));
         }
